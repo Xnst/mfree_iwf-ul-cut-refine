@@ -57,6 +57,7 @@
 #include <glm/glm.hpp>
 #include <stdio.h>
 #include <type_traits>
+#include <vector>
 
 #include "particle.h"
 
