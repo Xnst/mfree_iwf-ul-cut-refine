@@ -1,0 +1,14 @@
+# python stuff
+*.pyc
+__pycache__*
+_eric*
+*.deb
+
+# emacs files
+*~
+*#
+*_flymake.*
+
+# normal test script
+test*
+
