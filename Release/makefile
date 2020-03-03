@@ -45,7 +45,7 @@ all: refine_paper
 refine_paper: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: GCC C++ Linker'
-	g++ -p -o "refine_paper" $(OBJS) $(USER_OBJS) $(LIBS)
+	mpic++ -p -o "refine_paper" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
